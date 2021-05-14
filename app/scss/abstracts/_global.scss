@@ -1,0 +1,114 @@
+@use 'variables' as *;
+@use 'mixins' as *;
+
+html {
+ font-size: 100%;
+ box-sizing: border-box;
+ scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+ padding: 0;
+ margin: 0;
+ box-sizing: inherit;
+ -webkit-font-smoothing: antialiased;
+ -moz-osx-font-smoothing: grayscale;
+ text-rendering: optimizeLegibility;
+}
+
+body {
+ min-height: 100vh;
+ font-family: 'Lato', sans-serif;
+ position: relative;
+ line-height: 1.8;
+ background-color: var(--secondary-light);
+
+ &.no-scroll {
+  overflow: hidden;
+ }
+}
+
+.header.fixed-nav {
+  position: fixed;
+}
+
+h1,
+h2,
+p {
+ padding: 0;
+ margin: 0;
+}
+
+html:focus-within {
+ scroll-behavior: smooth;
+}
+
+a {
+ text-decoration: none;
+ cursor: pointer;
+ color: var(--primary-dark);
+}
+
+ul {
+ list-style: none;
+}
+
+input,
+button,
+textarea,
+select {
+ font: inherit;
+}
+
+// Helper Classes //
+.max-width {
+ max-width: 106.25rem;
+ margin: 0 auto;
+}
+
+// xxl margin
+.margin-xxl {
+ @include breakpoint-up(xxlarge) {
+  margin: 0 15rem;
+ }
+}
+
+// Flex Box
+.flex-row {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+
+// Visibility
+.hide-for-mobile {
+ @include breakpoint-down(medium) {
+  display: none;
+ }
+}
+
+.hide-for-tablet {
+ @include breakpoint-up(medium) {
+  display: none;
+ }
+}
+
+.hide-for-desktop {
+ @include breakpoint-up(large) {
+  display: none;
+ }
+}
+
+.show-for-desktop {
+ @include breakpoint-up(large) {
+  display: block;
+ }
+}
+
+// BG Image
+.bg-image {
+ background-size: cover;
+ background-repeat: no-repeat;
+}

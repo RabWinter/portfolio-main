@@ -1,0 +1,29 @@
+@use 'variables' as *;
+@use 'mixins' as *;
+
+button {
+  border: none;
+}
+
+.btn {
+ color: var(--secondary-light);
+ background-color: var(--btn);
+ padding: 0.7rem 1.7rem;
+ border-radius: var(--border-radius);
+ display: inline-block;
+ cursor: pointer;
+ @include hover(speed);
+
+ &:hover {
+  background-color: var(--btn-hover);
+ }
+}
+
+.projects__links--mobile .btn {
+ padding: 0.5rem 1.7rem;
+ background-color: var(--btn);
+}
+
+.btn-light {
+ background-color: var(--btn);
+}

@@ -1,0 +1,21 @@
+@use 'variables' as *;
+@use 'mixins' as *;
+
+h1 {
+  font-size: 2rem;
+  @include breakpoint-up(large) {
+    font-size: 2.5rem;
+  }
+}
+
+h1, h2, h3, a, button {
+  font-family: 'Poppins', sans-serif;
+}
+
+p {
+  font-size: 1.125rem;
+}
+
+.section-title {
+  font-size: 1.8rem;
+}
