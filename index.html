@@ -5,8 +5,15 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="preconnect" href="https://fonts.gstatic.com" />
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet"> 
-  <link href="https://fonts.googleapis.com/css2?family=Lato&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet"> 
+  <link
+   href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+   rel="stylesheet"
+  />
+  <link
+   href="https://fonts.googleapis.com/css2?family=Lato&family=Poppins:wght@300;400;500;600;700&display=swap"
+   rel="stylesheet"
+  />
+  <link rel="icon" href="/assets/logos/logo-rw-tab.svg" />
   <script type="module" src="/app/js/main.js"></script>
   <link rel="stylesheet" href="/css/main.css" />
   <title>Rab Winter Dev</title>
@@ -23,6 +30,7 @@
      <span></span>
     </div>
 
+    <!-- Desktop links -->
     <div class="header__links hide-for-mobile show-for-desktop">
      <a href="#section-1" class="header__menu--link">Projects</a>
      <a href="#section-2" class="header__menu--link">Skills</a>
@@ -31,6 +39,7 @@
     </div>
    </nav>
 
+   <!-- Mobile & tablet links -->
    <div class="header__menu has-fade hide-for-tablet hide-for-desktop">
     <a href="#section-1" class="header__menu--link">Projects</a>
     <a href="#section-2" class="header__menu--link">Skills</a>
@@ -45,6 +54,9 @@
     <section class="section hero" id="section-4">
      <div class="hero__inner max-width">
       <div class="hero__statement">
+        <div class="logo-cont">
+          <img src="/assets/logos/logo-rw-hero.svg" alt="">
+        </div>
        <h1 class="hero__title">I Am Rabert</h1>
        <p class="hero__text">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus adipisci
@@ -63,7 +75,7 @@
 
     <!-- Projects -->
     <section class="section projects" id="section-1">
-      <span class="divider divider-top"></span>
+     <span class="divider divider-top"></span>
      <div class="projects__inner container max-width">
       <h1 class="projects__title section-title">Projects</h1>
       <ul class="projects__list">
@@ -85,7 +97,8 @@
         </figure>
         <h2>Arch Studio Portfolio</h2>
         <p>
-         A multi page portfolio site showcasing the services of an architecture firm.
+         A multi page portfolio site showcasing the services of an architecture
+         firm.
         </p>
 
         <div class="projects__links--mobile">
@@ -119,7 +132,8 @@
 
         <h2>To Do App</h2>
         <p>
-         The classic to do app! This one comes complete with filtering, theme switcher and drag & drop functionality.
+         The classic to do app! This one comes complete with filtering, theme
+         switcher and drag & drop functionality.
         </p>
         <div class="projects__links--mobile">
          <a
@@ -154,8 +168,7 @@
         </figure>
         <h2>Dine Restaurant</h2>
         <p>
-         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum,
-         nesciunt.
+         Restaurant landing page with booking form.
         </p>
         <div class="projects__links--mobile">
          <a
@@ -215,12 +228,27 @@
      <div class="skills__inner container max-width">
       <h1 class="skills__title section-title">Tools</h1>
       <div class="skills__logos--container">
-        <div class="skills__logo"><img src="/assets/skills/html-logo.svg" alt="html-5 logo"></div>
-        <div class="skills__logo"><img src="/assets/skills/css-logo.svg" alt="css-3 logo"></div>
-        <div class="skills__logo"><img src="/assets/skills/scss-logo.svg" alt="sass logo"></div>
-        <div class="skills__logo"><img src="/assets/skills/js-logo.svg" alt="javasrcipt logo"></div>
-        <div class="skills__logo"><img src="/assets/skills/adobe-cc-logo.svg " alt="adobe creative cloud logo"></div>
-        <div class="skills__logo"><img src="/assets/footer/github-logo.svg" alt="github"></div>
+       <div class="skills__logo">
+        <img src="/assets/skills/html-logo.svg" alt="html-5 logo" />
+       </div>
+       <div class="skills__logo">
+        <img src="/assets/skills/css-logo.svg" alt="css-3 logo" />
+       </div>
+       <div class="skills__logo">
+        <img src="/assets/skills/scss-logo.svg" alt="sass logo" />
+       </div>
+       <div class="skills__logo">
+        <img src="/assets/skills/js-logo.svg" alt="javasrcipt logo" />
+       </div>
+       <div class="skills__logo">
+        <img
+         src="/assets/skills/adobe-cc-logo.svg "
+         alt="adobe creative cloud logo"
+        />
+       </div>
+       <div class="skills__logo">
+        <img src="/assets/footer/github-logo.svg" alt="github" />
+       </div>
       </div>
      </div>
     </section>
@@ -235,14 +263,14 @@
         <small class="contact__error"></small>
        </div>
        <div class="contact__form-control">
-        <input type="email" name="email" id="email" placeholder="Email"/>
+        <input type="email" name="email" id="email" placeholder="Email" />
         <small class="contact__error"></small>
        </div>
        <textarea name="message" id="message" placeholder="Message"></textarea>
        <input
         class="btn btn-light"
         type="submit"
-        value="Send" 
+        value="Send"
         id="btn-submit"
        />
       </form>

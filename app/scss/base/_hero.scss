@@ -21,6 +21,24 @@ padding-bottom: 10rem;
    clip-path: var(--slant-btm-left-lg);
  }
 
+ .logo-cont {
+   width: 10rem;
+   height: 10rem;
+   margin-bottom: 1rem;
+  //  background-color: rgba(32, 182, 149, 0.541);
+   
+   img {
+
+     height: 100%;
+     width: 100%;
+   }
+ }
+
+//  .logo {
+//   width: 150%;
+//   height: 150%;
+//  }
+
  &__inner {
   width: 90%;
   

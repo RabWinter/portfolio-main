@@ -418,6 +418,15 @@ button {
     clip-path: var(--slant-btm-left-lg);
   }
 }
+.hero .logo-cont {
+  width: 10rem;
+  height: 10rem;
+  margin-bottom: 1rem;
+}
+.hero .logo-cont img {
+  height: 100%;
+  width: 100%;
+}
 .hero__inner {
   width: 90%;
   display: flex;
@@ -727,6 +736,8 @@ button {
 .footer__rights {
   display: flex;
   justify-content: center;
+  padding-bottom: 2rem;
+  color: var(--secondary-text);
 }
 
 /*# sourceMappingURL=main.css.map */
