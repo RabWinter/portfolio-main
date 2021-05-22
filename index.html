@@ -13,7 +13,7 @@
    href="https://fonts.googleapis.com/css2?family=Lato&family=Poppins:wght@300;400;500;600;700&display=swap"
    rel="stylesheet"
   />
-  <link rel="icon" href="/assets/logos/logo-rw-tab.svg" />
+  <link rel="icon" href="/assets/logos/logo-rw-no-title.svg" />
   <script type="module" src="/app/js/main.js"></script>
   <link rel="stylesheet" href="/css/main.css" />
   <title>Rab Winter Dev</title>
@@ -23,7 +23,11 @@
   <header class="header" id="header">
    <div class="overlay has-fade"></div>
    <nav class="flex-row nav" id="nav">
-    <a href="#section-4" class="header__logo">Rab Winter</a>
+    <div class="logo__container">
+     <a href="#section-4" class="header__logo"
+      ><img src="/assets/logos/logo-rw-no-title.svg" alt=""
+     /></a>
+    </div>
     <div class="btn-hamburger header__toggle open hide-for-tablet">
      <span></span>
      <span></span>
@@ -54,14 +58,12 @@
     <section class="section hero" id="section-4">
      <div class="hero__inner max-width">
       <div class="hero__statement">
-        <div class="logo-cont">
-          <img src="/assets/logos/logo-rw-hero.svg" alt="">
-        </div>
-       <h1 class="hero__title">I Am Rabert</h1>
+       <!-- <div class="logo-cont">
+        <img src="/assets/logos/logo-rw-no-title.svg" alt="" />
+       </div> -->
+       <h1 class="hero__title">Hey, I'm Rab</h1>
        <p class="hero__text">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus adipisci
-        provident explicabo iste suscipit molestiae a? Doloremque vel
-        repudiandae consequuntur doloribus quas magnam?
+        A front end developer from Edinburgh who loves to learn and collaborate.
        </p>
        <div class="hero__btn">
         <button href="#" class="btn btn-scroll-to">Projects</button>
@@ -91,7 +93,7 @@
            <a href="https://arch-studio-website.vercel.app/" target="_blank"
             >Site</a
            >
-           <a href="https://github.com/RabWinter" target="_blank">Code</a>
+           <a href="https://github.com/RabWinter/arch-studio-website" target="_blank">Code</a>
           </div>
          </div>
         </figure>
@@ -108,7 +110,7 @@
           target="_blank"
           >Site</a
          >
-         <a href="https://github.com/RabWinter" class="btn" target="_blank"
+         <a href="https://github.com/RabWinter/arch-studio-website" class="btn" target="_blank"
           >Code</a
          >
         </div>
@@ -117,32 +119,34 @@
        <!-- 2 -->
        <li class="projects__list--item">
         <figure class="img-container">
-         <img src="/assets/projects/todo-app.png" alt="arch studio website" />
+         <img
+          src="/assets/projects/where-in-the-world.png"
+          alt="arch studio website"
+         />
          <div class="img-overlay hide-for-mobile">
           <div class="img-overlay-links">
-           <a href="https://arch-studio-website.vercel.app/" target="_blank"
+           <a href="https://rest-countries-api-henna.vercel.app/" target="_blank"
             >Site</a
            >
-           <a href="https://arch-studio-website.vercel.app/" target="_blank"
+           <a href="https://github.com/RabWinter/rest-countries-api" target="_blank"
             >Code</a
            >
           </div>
          </div>
         </figure>
 
-        <h2>To Do App</h2>
+        <h2>Where in the World?</h2>
         <p>
-         The classic to do app! This one comes complete with filtering, theme
-         switcher and drag & drop functionality.
+         A geographical search and filter app using the REST countries API.
         </p>
         <div class="projects__links--mobile">
          <a
-          href="https://arch-studio-website.vercel.app/"
+          href="https://rest-countries-api-henna.vercel.app/"
           class="btn"
           target="_blank"
           >Site</a
          >
-         <a href="https://github.com/RabWinter" class="btn" target="_blank"
+         <a href="https://github.com/RabWinter/rest-countries-api" class="btn" target="_blank"
           >Code</a
          >
         </div>
@@ -157,27 +161,25 @@
          />
          <div class="img-overlay hide-for-mobile">
           <div class="img-overlay-links">
-           <a href="https://arch-studio-website.vercel.app/" target="_blank"
+           <a href="https://dine-restaurant-website-chi.vercel.app/" target="_blank"
             >Site</a
            >
-           <a href="https://arch-studio-website.vercel.app/" target="_blank"
+           <a href="https://github.com/RabWinter/dine-restaurant-website" target="_blank"
             >Code</a
            >
           </div>
          </div>
         </figure>
         <h2>Dine Restaurant</h2>
-        <p>
-         Restaurant landing page with booking form.
-        </p>
+        <p>Restaurant landing page with booking form.</p>
         <div class="projects__links--mobile">
          <a
-          href="https://arch-studio-website.vercel.app/"
+          href="https://dine-restaurant-website-chi.vercel.app/"
           class="btn"
           target="_blank"
           >Site</a
          >
-         <a href="https://github.com/RabWinter" class="btn" target="_blank"
+         <a href="https://github.com/RabWinter/dine-restaurant-website" class="btn" target="_blank"
           >Code</a
          >
         </div>
@@ -186,34 +188,32 @@
        <!-- 4 -->
        <li class="projects__list--item">
         <figure class="img-container">
-         <img
-          src="/assets/projects/where-in-the-world.png"
-          alt="arch studio website"
-         />
+         <img src="/assets/projects/todo-app.png" alt="arch studio website" />
          <div class="img-overlay hide-for-mobile">
           <div class="img-overlay-links">
-           <a href="https://arch-studio-website.vercel.app/" target="_blank"
+           <a href="https://todo-app-seven-mauve.vercel.app/" target="_blank"
             >Site</a
            >
-           <a href="https://arch-studio-website.vercel.app/" target="_blank"
+           <a href="https://github.com/RabWinter/todo-app" target="_blank"
             >Code</a
            >
           </div>
          </div>
         </figure>
 
-        <h2>Where in the World?</h2>
+        <h2>Drag & Drop To Do App</h2>
         <p>
-         A geographical search and filter app using the REST countries API.
+         The classic to do app! This one comes complete with filtering, theme
+         switcher and drag & drop functionality.
         </p>
         <div class="projects__links--mobile">
          <a
-          href="https://arch-studio-website.vercel.app/"
+          href="https://todo-app-seven-mauve.vercel.app/"
           class="btn"
           target="_blank"
           >Site</a
          >
-         <a href="https://github.com/RabWinter" class="btn" target="_blank"
+         <a href="https://github.com/RabWinter/todo-app" class="btn" target="_blank"
           >Code</a
          >
         </div>
@@ -226,7 +226,7 @@
     <!-- Section Skills -->
     <section class="section skills" id="section-2">
      <div class="skills__inner container max-width">
-      <h1 class="skills__title section-title">Tools</h1>
+      <h1 class="skills__title section-title">Skills</h1>
       <div class="skills__logos--container">
        <div class="skills__logo">
         <img src="/assets/skills/html-logo.svg" alt="html-5 logo" />
@@ -284,6 +284,11 @@
        <a href="https://github.com/RabWinter" target="_blank">
         <img src="/assets/footer/github-logo.svg" alt="github logo" />
        </a>
+      </div>
+      <div class="logo__container">
+       <a href="#section-4" class="header__logo"
+        ><img src="/assets/logos/logo-rw-no-title.svg" alt=""
+       /></a>
       </div>
       <div class="footer__link">
        <a

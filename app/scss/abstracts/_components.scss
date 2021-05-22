@@ -27,3 +27,13 @@ button {
 .btn-light {
  background-color: var(--btn);
 }
+
+.logo__container {
+  height: 3rem;
+  width: 3rem;
+  
+  img {
+    height: 100%;
+    width: 100%;
+  }
+}

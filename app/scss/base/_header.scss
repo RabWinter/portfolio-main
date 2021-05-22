@@ -34,7 +34,7 @@
  }
 
  nav {
-  padding: 1.5rem 0;
+  padding: 1rem 0;
   width: 90%;
   margin: 0 auto;
   position: relative;
@@ -43,27 +43,29 @@
   max-width: 1700px;
  }
 
- &__logo {
-  font-weight: 700;
-  font-size: 1.4rem;
-  color: var(--primary-light);
-  position: relative;
 
-  &::after {
-    content: '';
-    position: absolute;
-    left: 0;
-    bottom: -5px;
-    height: 4px;
-    width: 45px;
-    border-radius: var(--border-radius);
-    background-color: var(--primary-text);
-  }
- }
+
+//  &__logo {
+//   font-weight: 700;
+//   font-size: 1.4rem;
+//   color: var(--primary-light);
+//   position: relative;
+
+//   &::after {
+//     content: '';
+//     position: absolute;
+//     left: 0;
+//     bottom: -5px;
+//     height: 4px;
+//     width: 45px;
+//     border-radius: var(--border-radius);
+//     background-color: var(--primary-text);
+//   }
+//  }
 
  .overlay {
   position: fixed;
-  top: 5.1rem;
+  top: 5rem;
   right: 0;
   left: 0;
   bottom: 0;
