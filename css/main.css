@@ -382,7 +382,7 @@ button {
   position: absolute;
   left: 0;
   right: 0;
-  bottom: -16px;
+  bottom: -9px;
   height: 4px;
   transform: scaleX(0);
   border-radius: var(--border-radius);
