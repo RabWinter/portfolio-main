@@ -270,6 +270,9 @@ button {
   width: 50%;
   margin: 0 auto;
 }
+.btn-submit:active {
+  background-color: var(--btn);
+}
 
 .logo__container {
   height: 3rem;

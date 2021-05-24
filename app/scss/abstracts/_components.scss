@@ -31,6 +31,10 @@ button {
 .btn-submit {
   width: 50%;
   margin: 0 auto;
+
+  &:active {
+    background-color: var(--btn);
+  }
 }
 
 .logo__container {
